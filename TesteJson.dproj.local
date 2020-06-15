@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/05/01 13:17:16.000.029,=C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/15 19:57:07.000.709,=C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/15 19:57:51.000.378,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Desenvolvimento\Fontes\05_JSONS\TesteJson.View.Main.pas</Transaction>
+    <Transaction>2020/06/15 19:57:51.000.378,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\Desenvolvimento\Fontes\05_JSONS\TesteJson.View.Main.dfm</Transaction>
+    <Transaction>2020/06/15 19:57:56.000.049,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Desenvolvimento\Fontes\05_JSONS\TesteJson.dproj</Transaction>
+    <Transaction>2020/06/15 19:58:00.000.624,=D:\Desenvolvimento\Fontes\05_JSONS\Unit1.pas</Transaction>
+    <Transaction>2020/06/15 19:58:10.000.720,D:\Desenvolvimento\Fontes\05_JSONS\Unit1.pas=D:\Desenvolvimento\Fontes\05_JSONS\TPedido.pas</Transaction>
+    <Transaction>2020/06/15 20:31:43.014,D:\Desenvolvimento\Fontes\05_JSONS\src\TPedido.pas=D:\Desenvolvimento\Fontes\05_JSONS\TPedido.pas</Transaction>
+  </Transactions>
+</BorlandProject>
