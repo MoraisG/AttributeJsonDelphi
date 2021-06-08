@@ -2,8 +2,9 @@ unit TPedido;
 
 interface
 
-uses
+{$IF VER330}
   REST.JSON.Types;
+{$ENDIF}
 {$M+}
 
 type

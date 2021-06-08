@@ -3,7 +3,11 @@ unit Serialialize.JSON;
 interface
 
 uses
+{$IF VER330}
   System.JSON,
+{$ELSE}
+  Data.DBXJSON,
+{$ENDIF}
   Serialialize.JSON.Interfaces;
 
 type
@@ -23,14 +27,17 @@ type
 implementation
 
 uses
+{$IF VER330}
   Rest.JSON.types,
+{$ENDIF}
   Rest.JSON;
 { TJsonSerialize }
 
 function TJsonSerialize<T>.Add(AJsonObjct: T): IJSON<T>;
 begin
   Result := Self;
-  FArrayJson.Add(TJson.ObjectToJsonObject(AJsonObjct, [joDateFormatParse]));
+  FArrayJson.Add(TJson.ObjectToJsonObject(AJsonObjct
+    {$IFDEF VER330}, [joDateFormatParse]{$ENDIF}));
 end;
 
 function TJsonSerialize<T>.Add(AJsonObjct: String): IJSON<T>;

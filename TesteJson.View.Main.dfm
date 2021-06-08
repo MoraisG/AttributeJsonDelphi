@@ -25,12 +25,10 @@ object Form1: TForm1
       447
       201)
     object Button1: TButton
-      AlignWithMargins = True
-      Left = 0
+      Left = 39
       Top = 8
-      Width = 75
+      Width = 130
       Height = 25
-      Anchors = [akLeft, akTop, akRight]
       Caption = 'Standard'
       TabOrder = 0
       OnClick = Button1Click
@@ -45,31 +43,31 @@ object Form1: TForm1
       TabOrder = 1
     end
     object Button2: TButton
-      AlignWithMargins = True
-      Left = 0
+      Left = 39
       Top = 39
-      Width = 75
+      Width = 130
       Height = 25
-      Anchors = [akLeft, akTop, akRight]
       Caption = 'Format'
       TabOrder = 2
       OnClick = Button2Click
     end
     object Button3: TButton
-      Left = 104
+      AlignWithMargins = True
+      Left = 224
       Top = 8
-      Width = 75
+      Width = 145
       Height = 25
-      Caption = 'Button3'
+      Caption = 'Serializar Object'
       TabOrder = 3
       OnClick = Button3Click
     end
     object Button4: TButton
-      Left = 104
+      AlignWithMargins = True
+      Left = 224
       Top = 39
-      Width = 75
+      Width = 145
       Height = 25
-      Caption = 'ArrayJson'
+      Caption = 'Serializar ArrayJson'
       TabOrder = 4
       OnClick = Button4Click
     end

@@ -6,7 +6,13 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
-  REST.Json, System.Json, Vcl.ExtCtrls, TPedido;
+  REST.Json,
+{$IF VER330}
+  System.Json,
+{$ELSE}
+  Data.DBXJSON,
+{$ENDIF}
+  Vcl.ExtCtrls, TPedido;
 
 type
   TForm1 = class(TForm)
@@ -66,7 +72,7 @@ begin
 
   jPedido.RemovePair('valorTotal').Free;
 
-  Memo1.Lines.Add(jPedido.Format);
+  Memo1.Lines.Add(jPedido.ToString);
   FreeAndNil(LPedido);
 end;
 
