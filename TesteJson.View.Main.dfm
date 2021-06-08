@@ -21,10 +21,6 @@ object Form1: TForm1
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitLeft = 208
-    ExplicitTop = 48
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     DesignSize = (
       447
       201)
@@ -67,6 +63,15 @@ object Form1: TForm1
       Caption = 'Button3'
       TabOrder = 3
       OnClick = Button3Click
+    end
+    object Button4: TButton
+      Left = 104
+      Top = 39
+      Width = 75
+      Height = 25
+      Caption = 'ArrayJson'
+      TabOrder = 4
+      OnClick = Button4Click
     end
   end
 end

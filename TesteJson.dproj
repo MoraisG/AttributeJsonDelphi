@@ -103,6 +103,12 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="src\TPedido.pas"/>
+        <DCCReference Include="src\dtos\Ecommerce.DTO.pas"/>
+        <DCCReference Include="src\contracts\Serialialize.JSON.Interfaces.pas"/>
+        <DCCReference Include="src\core\Serialialize.JSON.pas"/>
+        <DCCReference Include="src\types\Serialialize.Types.pas"/>
+        <DCCReference Include="src\core\Serialize.pas"/>
+        <DCCReference Include="src\types\Serialize.Attributes.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

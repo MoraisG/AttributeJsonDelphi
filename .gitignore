@@ -1,0 +1,10 @@
+
+*.~1~
+src/types/__history/Serialize.Attributes.pas.~2~
+src/dtos/__history/Ecommerce.DTO.pas.~2~
+*.~3~
+*.~4~
+*.~6~
+__history/TesteJson.View.Main.pas.~2~
+__history/TesteJson.View.Main.dfm.~2~
+src/dtos/__history/Ecommerce.DTO.pas.~5~
